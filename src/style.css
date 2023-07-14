@@ -1,1 +1,19 @@
 @import "~bootstrap/dist/css/bootstrap.min.css";
+.tabla {
+  background-color: green;
+  height: 100vh;
+}
+.carta {
+  background-color: wheat;
+  width: 300px;
+  height: 450px;
+  border-radius: 20px;
+}
+.header-card {
+}
+.center-card {
+  text-align: center;
+}
+.footer-card {
+  transform: rotate(180deg);
+}

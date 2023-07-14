@@ -4,8 +4,6 @@ import "./style.css";
 
 import "./assets/img/rigo-baby.jpg";
 import "./assets/img/4geeks.ico";
-import { defaultModifiers } from "@popperjs/core/lib/popper-lite";
-import HtmlWebpackPlugin from "html-webpack-plugin";
 
 window.onload = function() {
   // declaro los datos
@@ -37,6 +35,7 @@ window.onload = function() {
   let simbolo1 = simbolo[Math.floor(Math.random() * simbolo.length)];
   //llamo a la logica para que lo pinte en el Html
   document.querySelector(".letra").innerHTML = numero1;
+  //llamo a la logica para que lo pinte el simbolo y el estilo
   document.querySelectorAll(".icono").forEach((elem, index) => {
     elem.innerHTML = simbolo1.S;
     elem.style.color = simbolo1.C;
