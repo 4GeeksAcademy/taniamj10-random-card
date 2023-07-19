@@ -2,6 +2,9 @@
 .tabla {
   background-color: green;
   height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 .carta {
   background-color: wheat;
@@ -10,10 +13,15 @@
   border-radius: 20px;
 }
 .header-card {
+  height: 20%;
 }
 .center-card {
-  text-align: center;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 60%;
 }
 .footer-card {
   transform: rotate(180deg);
+  height: 20%;
 }
